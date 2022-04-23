@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>SLACA 2019</title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <h1>SLACA 2019</h1>
+    </div>
+    <img src="./assets/logo.png" alt="Logo do evento" id="logo-img">
+    <div class="sidebar-menu">
+      <div class="menu-section">
+        <p>Apresentação</p>
+      </div>
+      <div class="menu-section">
+        <p>Comitês</p>
+      </div>
+      <div class="menu-section">
+        <p>Autores</p>
+      </div>
+      <div class="menu-section">
+        <p>Eixos temáticos</p>
+      </div>
+      <div class="menu-section selected-section" id="works-section">
+        <div class="selected-bar"></div>
+        <p>Trabalhos</p>
+      </div>
+      <div class="menu-section">
+        <p>Contato</p>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-title-container">
+      <div class="header-title">
+        <h3>Anais do Simpósio Latino Americano de Ciências de Alimentos</h3>
+        <h1>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h1>
+        <h3>ISSN: 1234-5678</h3>
+      </div>
+
+      <div class="languages-dropdown">
+        <button class="languages-btn">
+          <img src="./assets/language-img.svg" class="languages-img">
+          <p>PT, BR</p>
+          <img src="./assets/dropdown-arrow.svg" id="dropdown-arrow">
+        </button>
+      </div>
+
+      <div class="user-profile">
+        <div id="user-info">
+          <h6 id="welcome-msg">Bem vindo!</h6>
+          <h6 id="user-email">alguem12@galoascience.com</h6>
+        </div>
+        <a href="#" id="user-profile-photo">
+          <img src="./assets/user-profile-img.svg" alt="Foto de perfil">
+          <span class="notification-badge">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-container">
+      <div class="top-section">
+        <h2 id="article-title">
+          Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de
+          Campinas/SP
+        </h2>
+        <section class="citation">
+          <div id="buttons">
+            <button id="download-btn">
+              <img src="./assets/download.svg" alt="Download">
+              Download
+            </button>
+            <button id="favorite-btn">
+              <img src="./assets/star.svg" alt="Favoritar">
+            </button>
+            <button id="doi-btn">
+              <img src="./assets/doi.svg" alt="doi">
+            </button>
+          </div>
+          <p>COMO CITAR ESSE TRABALHO?</p>
+        </section>
+      </div>
+
+      <div class="video-section">
+        <img src="./assets/video-thumb.png" alt="Thumbnail do vídeo">
+        <div class="details">
+          <h1>Detalhes</h1>
+          <div class="informations-text">
+            <section id="main-info">
+              <p>Tipo de Apresentação: <strong>Pôster</strong></p>
+              <p>Eixo temático: <strong>Alimentação e saúde (AS)</strong></p>
+              <p>Palavras-chaves: <strong>Alimentos funcionais, alimentação escolar.</strong></p>
+            </section>
+
+            <section id="authors">
+              <strong>Autores:</strong>
+              <p>Galileo Galilei<span>¹</span></p>
+              <p>Berta Lange de Morretes<span>²</span></p>
+              <p>Isaac Newton<span>³</span></p>
+              <p>Cesar Lattes<span>¹</span></p>
+              <p>Stephen Hawking<span>⁴</span></p>
+            </section>
+
+            <section id="universities">
+              <p>¹Universidade Estadual de Campinas</p>
+              <p>²Universidade de São Paulo</p>
+              <p>³Instituto Nacional de Pesquisas Espaciais</p>
+              <p>⁴Universidade Federal do Rio de Janeiro</p>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <div id="summary">
+        <h1 class="section-title">Resumo</h1>
+        <div class="summary-text show">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut,
+            commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed
+            magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi
+            tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem.
+            Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus
+            condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in
+            sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit
+            ametl
+            accumsant... <strong>ver mais</strong></p>
+        </div>
+        <div class="full-summary hide">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis
+            felis ut,
+            commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed
+            magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi
+            tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem.
+            Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. </p>
+
+
+          <p>Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat.
+            Proin
+            dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales
+            id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam
+            finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum
+            quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.
+          </p>
+
+          <p>Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec
+            eleifend
+            vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui
+            eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent
+            blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio.
+            Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque
+            sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu
+            libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.</p>
+
+          <p>Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra
+            felis ut
+            hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus dolor
+            at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at
+            malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+      </div>
+
+      <div id="discussions">
+        <h1 class="section-title">Discussões</h1>
+        <section id="qa-info" class="show-qa-section">
+          <h2>Compartilhe suas ideias ou dúvidas com os autores!</h2>
+          <div id="qa-icons">
+            <img src="./assets/hand-flower-icon.svg" alt="">
+            <img src="./assets/qa-icon.svg" alt="">
+            <img src="./assets/persons-icon.svg" alt="">
+          </div>
+          <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
+            questionamentos ou sugestões para o autor!</p>
+          <hr>
+          <button id="create-topic">
+            <img src="./assets/create-icon.svg" alt="">
+            criar tópico
+          </button>
+        </section>
+
+        <section id="new-topic" class="hide-qa-section">
+          <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+          <form onsubmit="event.preventDefault()">
+            <label for="subject">Assunto</label>
+            <input type="text" placeholder="Defina um tópico sucinto para notificar os autores..." disabled>
+            <label for="content">Conteúdo</label>
+            <textarea name="" id="" cols="30" rows="7" disabled></textarea>
+            <div id="textarea-bottom">
+              <div id="text-edit-options">
+                <h2>B</h2>
+                <h2>I</h2>
+              </div>
+
+              <button id="send-button">Enviar</button>
+            </div>
+          </form>
+          <hr>
+        </section>
+
+        <section id="sended-topic-screen" class="hide-qa-section">
+          <h2 id="confirm-message">Seu tópico foi enviado com sucesso! :D</h2>
+          <p id="thank-you-message">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim
+            que seu tópico for
+            respondido!</p>
+          <a href="">Descubra outros trabalhos!</a>
+          <hr>
+          <button id="sended-create-new-topic">
+            criar novo tópico
+          </button>
+          <div class="topic recently-created-topic">
+            <div class="topic-content">
+              <h3 class="topic-title">Assunto da pergunta aparece aqui</h3>
+              <p class="topic-creator">Carlos Henrique Santos</p>
+              <p class="topic-question">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
+                análise
+                da dimensão e impacto
+                de processo formativo situado impacto de processo formativo processo...</p>
+            </div>
+
+            <div class="topic-info">
+              <img src="./assets/more-info.svg" alt="">
+              <img src="./assets/heart-icon.svg" alt="">
+              <p>1 like</p>
+              <p>1 resposta</p>
+            </div>
+          </div>
+
+          <div id="waiting-feedback">
+            <img src="./assets/gray-checks.svg" alt="">
+            <h3>Aguardando feedback dos autores</h3>
+            <a href="">Editar tópico</a>
+          </div>
+        </section>
+
+        <div class="topic">
+          <div class="topic-content">
+            <h3 class="topic-title">Assunto da pergunta aparece aqui</h3>
+            <p class="topic-creator">Carlos Henrique Santos</p>
+            <p class="topic-question">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise
+              da dimensão e impacto
+              de processo formativo situado impacto de processo formativo processo...</p>
+          </div>
+
+          <div class="topic-info">
+            <img src="./assets/more-info.svg" alt="">
+            <img src="./assets/heart-icon.svg" alt="">
+            <p>1 like</p>
+            <p>1 resposta</p>
+          </div>
+        </div>
+
+        <div class="topic">
+          <div class="topic-content">
+            <h3 class="topic-title">Assunto da pergunta aparece aqui</h3>
+            <p class="topic-creator">Carlos Henrique Santos</p>
+            <p class="topic-question">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise
+              da dimensão e impacto
+              de processo formativo situado impacto de processo formativo processo...</p>
+          </div>
+
+          <div class="topic-info">
+            <img src="./assets/more-info.svg" alt="">
+            <img src="./assets/heart-icon.svg" alt="">
+            <p>1 like</p>
+            <p>1 resposta</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottom-text">
+        <hr>
+        <div id="bottom-container">
+          <div id="galoa-logo">
+            <h1>Galoá</h1>
+            <p>anais e proceedings</p>
+            <button>Saiba mais</button>
+          </div>
+
+          <div id="bottom-info">
+            <p><strong>Preservar a história do evento e ampliar o acesso ao conhecimento científico</strong> gerado em
+              eventos é a razão de ser da plataforma Galoá Proceedings.</p>
+            <p>
+              Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade científica,
+              mantendo aceso o debate científico fomentado pelos encontros e aumentando o impacto do evento.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+</body>
+
+</html>
