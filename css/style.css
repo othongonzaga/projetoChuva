@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  :root {
+  :root{
     --orange-100: #fdf1eb;
     --orange-300: #FFB354;
     --orange-350: #F0813D;
@@ -30,27 +30,15 @@
     --white: #ffffff;
   }
   
-  @media (max-width: 1080px) {
-    html {
-      font-size: 93.75%;
-    }
-  }
-  
-  @media (max-width: 720px) {
-    html {
-      font-size: 83.5%;
-    }
-  }
-  
-  body {
+  body{
     height: 100vh;
   }
   
-  body::-webkit-scrollbar {
+  body::-webkit-scrollbar{
     display: none;
   }
 
-  header {
+  header{
     position: absolute;
     min-width: 83.8%;
     height: 10.25%;
@@ -61,29 +49,29 @@
     z-index: -1;
   }
   
-  .header-title-container {
+  .header-title-container{
     display: flex;
     width: 93.5%;
     align-items: center;
     justify-content: space-between;
   }
   
-  .header-title {
+  .header-title{
     /* margin-right: 6rem; */
     font-family: "Roboto", sans-serif;
     color: var(--brown-200);
     text-align: left;
   }
   
-  .header-title h1 {
+  .header-title h1{
     font: 400 1.4rem "Roboto", sans-serif;
   }
   
-  .header-title h3 {
+  .header-title h3{
     font: 400 0.85rem "Roboto", sans-serif;
   }
   
-  .languages-btn {
+  .languages-btn{
     display: flex;
     margin-left: 4rem;
     padding: 0 9px;
@@ -98,49 +86,49 @@
     font-weight: 400;
   }
   
-  .languages-btn:hover {
+  .languages-btn:hover{
     cursor: pointer;
   }
   
-  .languages-btn .languages-img {
+  .languages-btn .languages-img{
     margin-bottom: 0.24rem;
   }
   
-  .languages-btn #dropdown-arrow {
+  .languages-btn #dropdown-arrow{
     width: 9px;
   }
   
-  .languages-btn p {
+  .languages-btn p{
     margin: 0 0.25rem;
     font: 300 0.9rem "Roboto", sans-serif;
     text-align: center;
   }
   
-  .user-profile {
+  .user-profile{
     display: flex;
   }
   
-  .user-profile #welcome-msg {
+  .user-profile #welcome-msg{
     font: 400 0.9rem "Quicksand", sans-serif;
     text-align: right;
   }
   
-  .user-profile #user-email {
+  .user-profile #user-email{
     font: 400 0.75rem "Quicksand", sans-serif;
     text-align: right;
   }
   
-  .user-profile #user-profile-photo {
+  .user-profile #user-profile-photo{
     display: flex;
     text-decoration: none;
   }
   
-  .user-profile #user-profile-photo img {
+  .user-profile #user-profile-photo img{
     position: relative;
     left: 10px;
   }
   
-  .notification-badge {
+  .notification{
     position: relative;
     height: 12px;
     width: 12px;
@@ -151,7 +139,7 @@
     border-radius: 50%;
   }
 
-  .sidebar {
+  .sidebar{
     width: 16.2%;
     height: 100%;
     position: fixed;
@@ -159,7 +147,7 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
   
-  .logo {
+  .logo{
     display: flex;
     height: 10.25%;
     width: 100%;
@@ -169,17 +157,17 @@
     padding: 1rem 0rem;
   }
   
-  .logo h1 {
+  .logo h1{
     font: 500 1.9rem "Roboto", sans-serif;
     color: var(--white);
   }
   
-  .sidebar .sidebar-menu {
+  .sidebar .sidebar-menu{
     display: flex;
     flex-direction: column;
   }
   
-  .sidebar .sidebar-menu .menu-section {
+  .sidebar .sidebar-menu .menu-section{
     display: flex;
     /* padding: 0.4rem 1.5rem; */
     align-items: center;
@@ -190,33 +178,33 @@
     color: var(--brown-200);
   }
   
-  .sidebar .sidebar-menu .menu-section:hover {
+  .sidebar .sidebar-menu .menu-section:hover{
     cursor: pointer;
     background-color: var(--orange-100);
   }
   
-  .sidebar .sidebar-menu .menu-section p {
+  .sidebar .sidebar-menu .menu-section p{
     padding-left: 1.5rem;
   }
   
-  .sidebar .sidebar-menu .selected-section {
+  .sidebar .sidebar-menu .selected{
     background-color: var(--orange-100);
     padding: 0rem;
     align-items: center;
   }
   
-  .sidebar .sidebar-menu .selected-section p {
+  .sidebar .sidebar-menu .selected p{
     padding-left: 1.5rem;
   }
   
-  .sidebar .sidebar-menu .selected-section .selected-bar {
+  .sidebar .sidebar-menu .selected .selected-bar{
     width: 5px;
     height: 33px;
     background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
     padding: 0rem 0rem;
   }
 
-  main {
+  main{
     position: absolute;
     width: 83.8%;
     height: 100vh;
@@ -224,12 +212,12 @@
     right: 0;
   }
   
-  .main-container {
+  .main-container{
     margin: 0 auto;
     width: 92.5%;
   }
 
-  #bottom-text {
+  #bottom-text{
     position: absolute;
     width: 97%;
     right: 0px;
@@ -237,39 +225,39 @@
     padding-bottom: 1.5rem;
   }
   
-  #bottom-text hr {
+  #bottom-text hr{
     width: 95%;
     left: 0;
     border: 1px solid #e7e7e7;
   }
   
-  #bottom-text #bottom-container {
+  #bottom-text #bottom-container{
     display: flex;
     width: 98.5%;
     margin: 1rem auto 0;
     /* justify-content: space-between; */
   }
   
-  #bottom-text #bottom-container #galoa-logo {
+  #bottom-text #bottom-container #galoa-logo{
     width: 18%;
     margin-right: 1.5rem;
     text-align: center;
   }
   
-  #bottom-text #bottom-container #galoa-logo h1 {
+  #bottom-text #bottom-container #galoa-logo h1{
     font: 500 4.5rem "Roboto", sans-serif;
     line-height: 60px;
     color: var(--purple-800);
   }
   
-  #bottom-text #bottom-container #galoa-logo p {
+  #bottom-text #bottom-container #galoa-logo p{
     font: 400 0.88rem "Roboto", sans-serif;
     letter-spacing: 1px;
     color: var(--purple-800);
   }
   
   #bottom-text #bottom-container #galoa-logo p::before,
-  #bottom-text #bottom-container #galoa-logo p::after {
+  #bottom-text #bottom-container #galoa-logo p::after{
     content: "";
     width: 15px;
     height: 2px;
@@ -278,15 +266,15 @@
     vertical-align: 0.25rem;
   }
   
-  #bottom-text #bottom-container #galoa-logo p::before {
+  #bottom-text #bottom-container #galoa-logo p::before{
     margin-right: 0.2rem;
   }
   
-  #bottom-text #bottom-container #galoa-logo p::after {
+  #bottom-text #bottom-container #galoa-logo p::after{
     margin-left: 0.2rem;
   }
   
-  #bottom-text #bottom-container #galoa-logo button {
+  #bottom-text #bottom-container #galoa-logo button{
     width: 95%;
     margin-top: 0.2rem;
     padding: 0.3rem;
@@ -297,61 +285,61 @@
     color: var(--white);
   }
   
-  #bottom-text #bottom-container #bottom-info {
+  #bottom-text #bottom-container #bottom-info{
     width: 77%;
     font: 500 0.88rem "Quicksand", sans-serif;
     color: var(--gray-400);
   }
   
-  #bottom-text #bottom-container #bottom-info p:nth-child(2) {
+  #bottom-text #bottom-container #bottom-info p:nth-child(2){
     margin-top: 1rem;
   }
 
-  #discussions {
+  #discussions{
     margin-top: 2rem;
     padding-bottom: 0.8rem;
     border: 1px solid var(--gray-100);
     border-radius: 3px;
   }
   
-  #discussions .section-title {
+  #discussions .section-title{
     padding: 10px 15px;
     font: 500 1.25rem "Roboto", sans-serif;
     color: var(--gray-500);
     background-color: var(--orange-100);
   }
   
-  #discussions #qa-info {
+  #discussions #qa-info{
     text-align: center;
     margin-top: 1rem;
   }
   
-  #discussions #qa-info h2 {
+  #discussions #qa-info h2{
     font: 600 1.1rem "Roboto", sans-serif;
     color: var(--orange-500);
     letter-spacing: 0.2px;
   }
   
-  #discussions #qa-info #qa-icons {
+  #discussions #qa-info #qa-icons{
     display: flex;
     margin: 1.75rem auto 0;
     width: 24.5%;
     justify-content: space-between;
   }
   
-  #discussions #qa-info p {
+  #discussions #qa-info p{
     margin: 2rem auto 0;
     width: 60%;
     font: 400 0.88rem "Quicksand", sans-serif;
   }
   
-  #discussions #qa-info hr {
+  #discussions #qa-info hr{
     margin: 2.25rem auto 0;
     width: 97.5%;
     border: 1px solid #e7e7e7;
   }
   
-  #discussions #qa-info button {
+  #discussions #qa-info button{
     display: flex;
     margin: -1.1rem auto 0;
     padding: 7px 14px;
@@ -366,7 +354,7 @@
     cursor: pointer;
   }
   
-  #discussions .topic {
+  #discussions .topic{
     width: 97.5%;
     margin: 1rem auto 0;
     padding: 1rem 1.5rem;
@@ -376,27 +364,27 @@
     font-family: "Quicksand", sans-serif;
   }
   
-  #discussions .topic .topic-content .topic-title {
+  #discussions .topic .topic-content .topic-title{
     font-weight: 700;
     font-size: 1rem;
     color: var(--orange-500);
   }
   
-  #discussions .topic .topic-content .topic-creator {
+  #discussions .topic .topic-content .topic-creator{
     margin-top: 0.2rem;
     font-weight: 600;
     font-size: 0.75rem;
     color: var(--gray-400);
   }
   
-  #discussions .topic .topic-content .topic-question {
+  #discussions .topic .topic-content .topic-question{
     margin-top: 0.7rem;
     font-weight: 400;
     font-size: 0.88rem;
     color: var(--gray-600);
   }
   
-  #discussions .topic .topic-info {
+  #discussions .topic .topic-info{
     width: 17.5%;
     display: flex;
     margin-top: 0.7rem;
@@ -404,22 +392,22 @@
     align-items: center;
   }
   
-  #discussions .topic .topic-info p {
+  #discussions .topic .topic-info p{
     font-weight: 300;
     font-size: 0.85rem;
   }
   
-  #discussions #new-topic {
+  #discussions #new-topic{
     display: flex;
     flex-direction: column;
   }
   
-  #discussions #new-topic p {
+  #discussions #new-topic p{
     text-align: center;
     font: 400 0.88rem "Quicksand", sans-serif;
   }
   
-  #discussions #new-topic form {
+  #discussions #new-topic form{
     display: flex;
     flex-direction: column;
     width: 97.5%;
@@ -428,7 +416,7 @@
     color: var(--orange-500);
   }
   
-  #discussions #new-topic form input {
+  #discussions #new-topic form input{
     border: 1px solid #cccccc;
     border-radius: 3px;
     padding: 11px 0px 11px 23px;
@@ -437,18 +425,18 @@
     background-color: var(--white);
   }
   
-  #discussions #new-topic form label {
+  #discussions #new-topic form label{
     margin-top: 0.8rem;
   }
   
-  #discussions #new-topic form textarea {
+  #discussions #new-topic form textarea{
     border: 1px solid #cccccc;
     border-radius: 3px;
     background-color: var(--white);
     resize: none;
   }
   
-  #discussions #new-topic form #textarea-bottom {
+  #discussions #new-topic form #textarea-bottom{
     display: flex;
     justify-content: space-between;
     margin: -2rem auto 0;
@@ -458,7 +446,7 @@
     border: 1px solid #cccccc;
   }
   
-  #discussions #new-topic form #text-edit-options {
+  #discussions #new-topic form #text-edit-options{
     display: flex;
     width: 5%;
     justify-content: space-between;
@@ -469,13 +457,13 @@
     align-items: center;
   }
   
-  #discussions #new-topic form #text-edit-options h2:nth-child(2) {
+  #discussions #new-topic form #text-edit-options h2:nth-child(2){
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 1.27rem;
   }
   
-  #discussions #new-topic form #send-button {
+  #discussions #new-topic form #send-button{
     width: 20%;
     border: none;
     border-radius: 0px 0px 4px 0px;
@@ -485,45 +473,45 @@
     cursor: pointer;
   }
   
-  #discussions #new-topic hr {
+  #discussions #new-topic hr{
     margin: 0 auto 1rem;
     width: 97.5%;
     border: 1px solid #e7e7e7;
   }
   
-  #discussions #sended-topic-screen {
+  #discussions #sended-topic-screen{
     display: flex;
     flex-direction: column;
   }
   
-  #discussions #sended-topic-screen #confirm-message {
+  #discussions #sended-topic-screen #confirm-message{
     margin-top: 1rem;
     text-align: center;
     font: 700 1.13rem "Roboto", sans-serif;
     color: var(--orange-500);
   }
   
-  #discussions #sended-topic-screen #thank-you-message {
+  #discussions #sended-topic-screen #thank-you-message{
     margin-top: 1rem;
     text-align: center;
     font: 400 0.88rem "Quicksand", sans-serif;
     color: var(--gray-300);
   }
   
-  #discussions #sended-topic-screen a {
+  #discussions #sended-topic-screen a{
     margin-top: 2rem;
     text-align: center;
     font: 500 0.88rem "Quicksand", sans-serif;
     color: #F48F44;
   }
   
-  #discussions #sended-topic-screen hr {
+  #discussions #sended-topic-screen hr{
     width: 97.5%;
     margin: 4rem auto 0;
     border: 1px solid #e7e7e7;
   }
   
-  #discussions #sended-topic-screen #sended-create-new-topic {
+  #discussions #sended-topic-screen #sended-create-new-topic{
     width: 22.5%;
     height: 2rem;
     margin: -1.2rem auto 0;
@@ -535,56 +523,56 @@
     cursor: pointer;
   }
   
-  #discussions #sended-topic-screen .recently-created-topic {
+  #discussions #sended-topic-screen .recently-created-topic{
     cursor: default;
     background-color: var(--gray-100);
   }
   
-  #discussions #sended-topic-screen .recently-created-topic div {
+  #discussions #sended-topic-screen .recently-created-topic div{
     filter: blur(2px);
   }
   
-  #discussions #sended-topic-screen .recently-created-topic .topic-info {
+  #discussions #sended-topic-screen .recently-created-topic .topic-info{
     visibility: hidden;
   }
   
-  #discussions #sended-topic-screen #waiting-feedback {
+  #discussions #sended-topic-screen #waiting-feedback{
     margin: -7rem auto 2rem;
     text-align: center;
   }
   
-  #discussions #sended-topic-screen #waiting-feedback h3 {
+  #discussions #sended-topic-screen #waiting-feedback h3{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font: 700 1rem "Quicksand", sans-serif;
     color: #707070;
   }
   
-  .hide-qa-section {
+  .hide-qa-section{
     visibility: hidden;
     opacity: 0;
     height: 0px;
     margin: 0;
   }
   
-  .show-qa-section {
+  .show-qa-section{
     visibility: visible;
     opacity: 1;
     height: 100%;
   }
   
-  #discussions section {
+  #discussions section{
     transition: opacity 0.3s linear;
   }
 
-  #summary {
+  #summary{
     margin-top: 2rem;
     border: 1px solid var(--gray-100);
     border-radius: 3px;
     cursor: pointer;
   }
   
-  #summary .section-title {
+  #summary .section-title{
     padding: 10px 15px;
     font: 500 1.25rem "Roboto", sans-serif;
     color: var(--gray-500);
@@ -592,13 +580,13 @@
   }
   
   #summary .summary-text,
-  #summary .full-summary {
+  #summary .full-summary{
     background: var(--white);
     /* padding: 15px; */
   }
   
   #summary .summary-text p,
-  #summary .full-summary p {
+  #summary .full-summary p{
     font: 400 0.88rem "Quicksand", sans-serif;
     line-height: 1.4rem;
     letter-spacing: 0.014rem;
@@ -607,60 +595,60 @@
   }
   
   #summary .summary-text p,
-  #summary .full-summary p:last-child {
+  #summary .full-summary p:last-child{
     margin-bottom: 0;
   }
   
-  #summary .summary-text strong {
+  #summary .summary-text strong{
     color: var(--orange-500);
   }
   
-  #summary div {
+  #summary div{
     height: 100%;
     transition: opacity 0.5s linear;
   }
   
-  #summary div.hide {
+  #summary div.hide{
     visibility: hidden;
     opacity: 0;
     height: 0px;
     padding: 0px;
   }
   
-  #summary div.show {
+  #summary div.show{
     visibility: visible;
     opacity: 1;
     height: 100%;
     padding: 15px
   }
   
-  .top-section {
+  .top-section{
     display: flex;
     justify-content: space-between;
     margin-top: 1.2rem;
   }
   
-  .top-section #article-title {
+  .top-section #article-title{
     width: 72.5%;
     font: 800 20px "Roboto", sans-serif;
     color: var(--orange-500);
     letter-spacing: 1px;
   }
   
-  .top-section .citation {
+  .top-section .citation{
     display: flex;
     width: 20.5%;
     flex-direction: column;
     align-items: center;
   }
   
-  .top-section #buttons {
+  .top-section #buttons{
     display: flex;
     width: 100%;
     justify-content: space-between;
   }
   
-  .top-section button {
+  .top-section button{
     height: 31px;
     width: 43px;
     display: flex;
@@ -673,13 +661,13 @@
     border-radius: 4px;
   }
   
-  .top-section #download-btn {
+  .top-section #download-btn{
     width: 120px;
     justify-content: space-around;
     padding: 10px;
   }
   
-  .top-section .citation p {
+  .top-section .citation p{
     width: 107%;
     margin-top: 0.75rem;
     text-align: center;
@@ -688,20 +676,20 @@
     letter-spacing: 1px;
   }
 
-  .video-section {
+  .video-section{
     margin-top: 0.85rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
   
-  .video-section .details {
+  .video-section .details{
     width: 23%;
     border: 1px solid var(--gray-100);
     border-radius: 3px;
   }
   
-  .video-section .details h1 {
+  .video-section .details h1{
     text-align: start;
     padding: 10px 15px;
     font: 500 1.25rem "Roboto", sans-serif;
@@ -709,43 +697,43 @@
     background-color: var(--orange-100);
   }
   
-  .video-section .details .informations-text {
+  .video-section .details .informations-text{
     padding: 15px;
   }
   
   .video-section .details .informations-text span,
-  .video-section .details .informations-text p {
+  .video-section .details .informations-text p{
     color: var(--gray-400);
     font: 500 0.75rem "Quicksand", sans-serif;
   }
   
-  .video-section .details .informations-text strong {
+  .video-section .details .informations-text strong{
     color: var(--gray-400);
     font: 700 0.75rem "Quicksand", sans-serif;
   }
   
-  #main-info p {
+  #main-info p{
     margin-bottom: 0.25rem;
   }
   
-  #authors {
+  #authors{
     margin-top: 1.25rem;
   }
   
-  #authors strong {
+  #authors strong{
     font-size: 0.9rem;
   }
   
-  #authors p {
+  #authors p{
     font-size: 0.88rem;
     margin-top: 0.25rem;
   }
   
-  #universities {
+  #universities{
     margin-top: 2.25rem;
   }
   
-  #universities p {
+  #universities p{
     font-weight: 300;
     font-size: 0.78rem;
   }
