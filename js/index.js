@@ -8,7 +8,7 @@ var summary = document.getElementById("summary");
 let fullContent = document.getElementsByClassName("full-summary");
 let smallText = document.getElementsByClassName("summary-text");
 
-function showNewTopicCreationSection() {
+function showNewTopicCreationSection(){
     newTopicSection.classList.add("show-qa-section");
     newTopicSection.classList.remove("hide-qa-section");
   
@@ -19,7 +19,7 @@ function showNewTopicCreationSection() {
     sendedNewTopicScreen.classList.add("hide-qa-section");
   }
   
-  function hideNewTopicCreationSection() {
+  function hideNewTopicCreationSection(){
     newTopicSection.classList.add("hide-qa-section");
     newTopicSection.classList.remove("show-qa-section");
   
@@ -27,7 +27,7 @@ function showNewTopicCreationSection() {
     qaInfoSection.classList.add("show-qa-section");
   }
   
-  function showSendedNewTopicScreen() {
+  function showSendedNewTopicScreen(){
     sendedNewTopicScreen.classList.add("show-qa-section");
     sendedNewTopicScreen.classList.remove("hide-qa-section");
   
@@ -35,27 +35,27 @@ function showNewTopicCreationSection() {
     newTopicSection.classList.add("hide-qa-section");
   }
   
-  createTopicButton.addEventListener("click", () => {
-    if (newTopicSection.classList.contains("hide-qa-section")) {
+  createTopicButton.addEventListener("click", () =>{
+    if (newTopicSection.classList.contains("hide-qa-section")){
       showNewTopicCreationSection();
-    } else {
+    } else{
       hideNewTopicCreationSection();
     }
   })
   
-  sendNewTopicButton.addEventListener("click", () => {
-    if (sendedNewTopicScreen.classList.contains("hide-qa-section")) {
+  sendNewTopicButton.addEventListener("click", () =>{
+    if (sendedNewTopicScreen.classList.contains("hide-qa-section")){
       showSendedNewTopicScreen();
     }
   })
   
-  sendedScreenCreateNewTopicButton.addEventListener("click", () => {
-    if (sendedNewTopicScreen.classList.contains("show-qa-section")) {
+  sendedScreenCreateNewTopicButton.addEventListener("click", () =>{
+    if (sendedNewTopicScreen.classList.contains("show-qa-section")){
       showNewTopicCreationSection();
     }
   })
 
-  function showSummaryFullContent() {
+  function showSummaryFullContent(){
     fullContent[0].classList.add("show");
     fullContent[0].classList.remove("hide");
   
@@ -63,7 +63,7 @@ function showNewTopicCreationSection() {
     smallText[0].classList.add("hide");
   }
   
-  function hideSummaryFullContent() {
+  function hideSummaryFullContent(){
     fullContent[0].classList.add("hide");
     fullContent[0].classList.remove("show");
   
@@ -71,10 +71,10 @@ function showNewTopicCreationSection() {
     smallText[0].classList.add("show");
   }
   
-  summary.addEventListener("click", () => {
-    if (fullContent[0].classList.contains("hide")) {
+  summary.addEventListener("click", () =>{
+    if (fullContent[0].classList.contains("hide")){
       showSummaryFullContent();
-    } else {
+    } else{
       hideSummaryFullContent();
     }
   })
