@@ -737,3 +737,626 @@
     font-weight: 300;
     font-size: 0.78rem;
   }
+
+  @media(max-width: 1326px){
+    header .languages-btn{
+      margin-left: 2rem;
+    }
+  
+    .video-section .youtube{
+      width: 75%;
+      height: 420px;
+    }
+  
+    .video-section .details{
+      height: 420px;
+    }
+  
+    .video-section .details #authors{
+      margin-top: 0.9rem;
+    }
+  
+    .video-section .details #universities{
+      margin-top: 0.9rem;
+    }
+  }
+  
+  @media(max-width: 1295px){
+    header .languages-btn{
+      padding: 5px;
+      font-size: 0.75rem;
+    }
+  
+    main .top-section .citation{
+      width: 22%;
+    }
+  }
+  
+  @media(max-width: 1260px){
+    .sidebar .logo{
+      height: 11%;
+    }
+  
+    header{
+      height: 11%;
+    }
+  
+    header .header-title-container{
+      width: 95%;
+    }
+  
+    header .header-title h1{
+      font-size: 1.2rem;
+    }
+  
+    header .languages-btn{
+      margin-left: 1.5rem;
+      margin-left: 0rem;
+    }
+  
+    main .main-container{
+      width: 94%;
+    }
+  
+    main .top-section .citation{
+      width: 23%;
+    }
+  
+    main .top-section .citation p{
+      width: 100%;
+      text-align: right;
+    }
+  
+    .video-section .youtube{
+      width: 70%;
+      height: 360px;
+    }
+  
+    .video-section .details{
+      width: 27.5%;
+      height: 360px;
+    }
+  
+    main #bottom-text #bottom-container #galoa-logo p::after,
+    main #bottom-text #bottom-container #galoa-logo p::before{
+      display: none;
+    }
+  }
+  
+  @media(max-width: 1237px){
+    .video-section .youtube{
+      width: 65%;
+      height: 350px;
+    }
+  
+    .video-section .details{
+      width: 29%;
+      height: 350px;
+    }
+  
+    .video-section .details h1{
+      font-size: 1.1rem;
+      padding: 10px;
+    }
+  
+    .video-section .details #authors strong{
+      font-size: 0.85rem;
+    }
+  
+    .video-section .details #authors p{
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media(max-width: 1215px){
+    main .top-section{
+      margin-top: 1rem;
+    }
+  
+    main .top-section #article-title{
+      width: 69%;
+      font-size: 1.1rem;
+    }
+  
+    main .top-section .citation{
+      width: 25%;
+    }
+  
+    main .top-section .citation #buttons button{
+      padding: 5px;
+    }
+  
+    main .top-section .citation #buttons #download-btn{
+      width: 110px;
+    }
+  
+    main .top-section .citation p{
+      margin-top: 0.5rem;
+    }
+  }
+  
+  @media(max-width: 1175px){
+    .sidebar .logo h1{
+      font-size: 1.45rem;
+    }
+  
+    header .header-title h1{
+      font-size: 1.1rem;
+    }
+  
+    main .top-section .citation p{
+      font-size: 0.78rem;
+    }
+  
+    main .video-section .youtube{
+      width: 65%;
+      height: 330px;
+    }
+  
+    main .video-section .details{
+      width: 31%;
+      height: 330px;
+    }
+  
+    main .video-section .details .informations-text{
+      padding: 7px;
+    }
+  
+    .video-section .details #authors p{
+      margin-top: 0rem;
+    }
+  
+    main #summary{
+      margin-top: 1rem;
+    }
+  
+    main #bottom-text #bottom-container{
+      justify-content: space-between;
+    }
+  
+    main #bottom-text #bottom-container #galoa-logo{
+      margin-right: 0;
+    }
+  }
+  
+  @media(max-width: 1020px){
+    .sidebar{
+      width: 20%;
+    }
+  
+    header{
+      width: 80%;
+    }
+  
+    header .user-profile #user-info{
+      display: none;
+    }
+  
+    main{
+      width: 80%;
+    }
+  
+    main .top-section .citation{
+      width: 27.5%;
+    }
+  }
+  
+  @media(max-width: 986px){
+    main .top-section .citation{
+      width: 30%;
+    }
+  
+    main .video-section .youtube{
+      height: 330px;
+    }
+  
+    main .video-section .details{
+      width: 33%;
+      height: 330px;
+    }
+  
+    main #discussions .topic .topic-info{
+      width: 25%;
+    }
+  
+    main #discussions .open-full-topic .origin-topic .full-topic-info{
+      width: 25%;
+    }
+  }
+  
+  @media(max-width: 930px){
+    main .video-section{
+      display: block;
+    }
+  
+    main .video-section .youtube{
+      width: 100%;
+      height: 380px;
+    }
+  
+    main .video-section .details{
+      width: 100%;
+      margin-top: 1rem;
+      height: 40%;
+    }
+  }
+  
+  @media(max-width: 880px){
+    header .languages-dropdown .languages-btn{
+      padding: 0px 5px 0px 5px;
+      height: 25px;
+      width: 75px;
+    }
+  
+    header .languages-dropdown .languages-btn p{
+      font-size: 0.7rem;
+    }
+  
+    header .languages-dropdown .languages-btn img{
+      width: 17px;
+    }
+  
+    main .top-section{
+      display: block;
+      margin-top: 0.8rem;
+    }
+  
+    main .top-section #article-title{
+      width: 100%;
+      font-size: 1.1rem;
+    }
+  
+    main .top-section .citation{
+      display: block;
+      width: 40%;
+      margin-top: 0.75rem;
+    }
+  
+    main .top-section #buttons{
+      width: 80%;
+    }
+  
+    main .top-section #buttons #download-btn{
+      width: 110px !important;
+      padding: 5px;
+      font-size: 0.9rem;
+    }
+  
+    main .top-section #buttons #download-btn img,
+    main .top-section #buttons #favorite-btn img,
+    main .top-section #buttons #doi-btn img{
+      width: 14px;
+    }
+  
+    main .top-section #buttons #favorite-btn,
+    main .top-section #buttons #doi-btn{
+      padding: 0;
+      width: 40px;
+    }
+  
+    main .top-section .citation p{
+      font-size: 0.88rem;
+      text-align: left;
+    }
+  
+    main #discussions .open-full-topic .topic-answers .answer .author-section .author-type{
+      margin-right: 1.5rem;
+    }
+  }
+  
+  @media(max-width: 800px){
+    .sidebar{
+      width: 22%;
+    }
+  
+    .sidebar .logo{
+      height: 10%;
+    }
+  
+    header{
+      width: 78%;
+      height: 10%;
+    }
+  
+    header .header-title h1{
+      font-size: 1rem;
+    }
+  
+    header .header-title h3{
+      font-size: 0.75rem;
+    }
+  
+    main{
+      width: 78%;
+    }
+  
+    main .top-section .citation{
+      display: block;
+      width: 45%;
+      margin-top: 0.75rem;
+    }
+  }
+  
+  @media(max-width: 768px){
+    .sidebar .logo h1{
+      font-size: 1.3rem;
+    }
+  
+    header{
+      width: 78%;
+      height: 10%;
+    }
+  
+    header .header-title h1{
+      font-size: 0.9rem;
+    }
+  
+    header .languages-dropdown .languages-btn{
+      padding: 0px 5px 0px 5px;
+      height: 25px;
+      width: 75px;
+    }
+  
+    header .languages-dropdown .languages-btn p{
+      font-size: 0.7rem;
+    }
+  
+    header .languages-dropdown .languages-btn img{
+      width: 17px;
+    }
+  
+    header .user-profile #user-info #welcome-msg,
+    header .user-profile #user-info #user-email{
+      display: none;
+    }
+  
+    main .top-section{
+      display: block;
+      margin-top: 0.8rem;
+    }
+  
+    main .top-section #article-title{
+      width: 100%;
+      font-size: 1rem;
+    }
+  
+    main .top-section #buttons{
+      width: 80%;
+    }
+  
+    main .top-section #buttons #download-btn{
+      width: 95px !important;
+      padding: 5px;
+      font-size: 0.9rem;
+    }
+  
+    main .top-section #buttons #download-btn img,
+    main .top-section #buttons #favorite-btn img,
+    main .top-section #buttons #doi-btn img{
+      width: 14px;
+    }
+  
+    main .top-section #buttons #favorite-btn,
+    main .top-section #buttons #doi-btn{
+      padding: 0;
+      width: 40px;
+    }
+  
+    main .top-section .citation p{
+      text-align: left;
+    }
+  
+    main .video-section{
+      display: block;
+    }
+  
+    main .video-section .youtube{
+      width: 100%
+    }
+  
+    main .video-section .details{
+      width: 100%;
+      height: 40%;
+      margin-top: 1rem;
+    }
+  
+    main #summary .section-title{
+      font-size: 1.1rem;
+    }
+  
+    main #summary .summary-text{
+      padding: 5px 15px;
+    }
+  
+    main #summary .summary-text p{
+      font-size: 0.8rem;
+      line-height: 1.3rem;
+    }
+  
+    main #discussions{
+      margin-top: 1rem;
+    }
+  
+    main #discussions .section-title{
+      font-size: 1.1rem;
+    }
+  
+    main #discussions #qa-info h2{
+      font-size: 1rem;
+    }
+  
+    main #discussions #qa-info #qa-icons{
+      width: 35%;
+      margin-top: 1rem;
+    }
+  
+    main #discussions #qa-info #qa-icons img{
+      width: 40px;
+    }
+  
+    main #discussions #qa-info p{
+      font-size: 0.88rem;
+    }
+  
+    main #discussions #new-topic form input{
+      padding-left: 11px;
+    }
+  
+    main #discussions #sended-topic-screen #confirm-message{
+      margin-top: 0;
+      font-size: 1.05rem;
+    }
+  
+    main #discussions #sended-topic-screen #thank-you-message{
+      width: 90%;
+      margin: 1rem auto 0;
+    }
+  
+    main #discussions #sended-topic-screen a{
+      margin-top: 1rem;
+    }
+  
+    main #discussions #sended-topic-screen hr{
+      margin: 3rem auto 0;
+    }
+  
+    main #discussions .open-full-topic .origin-topic{
+      width: 92.5%;
+    }
+  
+    main #discussions .open-full-topic .origin-topic .full-topic-info{
+      width: 35%;
+      margin-top: 1rem;
+    }
+  
+    main #discussions .open-full-topic .topic-answers .answer .author-section{
+      width: 92.5%;
+    }
+  
+    main #discussions .open-full-topic .topic-answers .answer .answer-content{
+      width: 92.5%;
+    }
+  
+    main #discussions .open-full-topic .topic-answers .answer:nth-child(2) .answer-author{
+      width: 92.5%;
+    }
+  
+    main #discussions .topic .topic-info{
+      width: 35%;
+    }
+  
+    main #bottom-text{
+      margin-top: 1.75rem;
+    }
+  
+    main #bottom-text #bottom-container{
+      display: block;
+      width: 95%;
+      margin-top: 1rem;
+    }
+  
+    main #bottom-text #bottom-container #galoa-logo{
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    main #bottom-text #bottom-container #galoa-logo button{
+      width: 40%;
+    }
+  
+    main #bottom-text #bottom-container #bottom-info{
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+  
+  @media(max-width: 680px){
+    .sidebar .logo{
+      height: 15%;
+    }
+  
+    .sidebar img{
+      display: none;
+    }
+  
+    header{
+      height: 15%;
+    }
+  
+    header .header-title{
+      width: 70%;
+    }
+  
+    header .header-title h1{
+      font-size: 0.9rem;
+    }
+  
+    header .languages-dropdown .languages-btn #dropdown-arrow{
+      display: none;
+    }
+  
+    header .languages-dropdown .languages-btn{
+      width: 65px !important;
+      justify-content: space-around;
+    }
+  
+    main{
+      top: 15%;
+    }
+  
+    main .top-section .citation{
+      width: 55%;
+    }
+  
+    main #discussions #sended-topic-screen #sended-create-new-topic{
+      width: 45%;
+    }
+  }
+  
+  @media(max-width: 540px){
+    .sidebar{
+      display: none;
+    }
+  
+    header{
+      width: 100%;
+      height: 15%;
+    }
+  
+    main{
+      width: 100%;
+      top: 15%;
+    }
+  
+    main .top-section .citation{
+      width: 60%;
+    }
+  }
+  
+  @media(max-width: 396px){
+    main .top-section .citation{
+      width: 75%;
+    }
+  
+    main #discussions .topic .topic-info{
+      width: 45%;
+    }
+  
+    main #discussions .open-full-topic .origin-topic .full-topic-info{
+      width: 45%;
+    }
+  
+    main #discussions .open-full-topic .topic-answers .answer .author-section .author-type{
+      margin-right: 3rem;
+    }
+  }
+  
+  @media(max-width: 320px){
+    main #discussions .topic .topic-info{
+      width: 55%;
+    }
+  
+    main #discussions .open-full-topic .origin-topic .full-topic-info{
+      width: 55%;
+    }
+  }
